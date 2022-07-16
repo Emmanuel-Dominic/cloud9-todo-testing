@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "cloud9-todo-testing"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-mjdjoogq520q"
+s3_prefix = "cloud9-todo-testing"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=529715202520.dkr.ecr.us-east-1.amazonaws.com/cloud9todotestinga8c916d6/helloworldfunction19d43fc4repo"]
